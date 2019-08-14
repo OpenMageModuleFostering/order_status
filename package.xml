@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<package>
+    <name>Order_Status</name>
+    <version>0.1.1</version>
+    <stability>stable</stability>
+    <license uri="http://www.opensource.org/licenses/gpl-license.php">GNU General Public License (GPL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>This extension adds extra Status options to the Order Status drop down of Customer Orders and also allows you to add your own.</summary>
+    <description>We all know that Magento is lacking in the order status department, and I have searched the forum wide and have come up with a package that works.
+
+Credits go to:
+Spheric, Atlasit, Ajayksh, Erenaud
+
+Spheric is the one who created the module. I just stuck it into a package and added a variety of customs Status's which most people should find useful without changing.
+
+Below is the list of New Status's that have been added:
+
+ * Pending - Credit Card Reserved
+ * Pending - Stock has been ordered
+ * Pending - Proof of Payment Received
+  
+ * Processing - Payment has Cleared
+ * Processing - Credit Card has been Settled
+ * Processing - Stock has been received and scanned
+ * Processing - Stock has been invoiced, packaged and awaiting courier
+ * Processing - Stock has been invoiced, packaged and ready to be posted
+ * Processing - Stock is ready and awaiting collection
+  
+ * Complete - Courier has collected
+ * Complete - Stock has been posted
+ * Complete - Stock has been collected
+  
+ * Cancelled - As per Customer Request
+ * Cancelled - Customer not Responding
+ * Cancelled - Stock Item Discontinued
+ * Cancelled - Suspected Fraud
+  
+ * Back Order
+
+To add your own Status's you can edit the following file:
+magento_root/app/code/local/sales/local/etc/config.xml
+
+Just follow the istructions of the grey text in that file.</description>
+    <notes>Thanks given to:
+Spheric, Atlasit, Ajayksh, Erenaud</notes>
+    <authors><author><name>Itai Etzman</name><user>auto-converted</user><email>webmaster@digitaladdiction.co.za</email></author></authors>
+    <date>2009-06-18</date>
+    <time>22:21:48</time>
+    <contents><target name="magelocal"><dir name="Mage"><dir name="Sales"><dir name="Local"><dir name="etc"><file name="config.xml" hash="0183e4ed7c2ed4c09a426cd7eece4e56"/></dir><file name="Default.php" hash="1c0aaf7db21e321248c880cd5eb56798"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Status.xml" hash="a32009399e91daf1c83bc4190e0e5cc1"/></dir></target></contents>
+    <compatible/>
+    <dependencies/>
+</package>

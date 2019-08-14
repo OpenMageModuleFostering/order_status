@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Order_Status",
+    "type": "magento-module",
+    "license": "GNU-General-Public-License-(GPL)",
+    "homepage": "",
+    "description": "This extension adds extra Status options to the Order Status drop down of Customer Orders and also allows you to add your own.",
+    "authors": [
+    {
+        "name": "Itai Etzman",
+        "email": "webmaster@digitaladdiction.co.za"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
