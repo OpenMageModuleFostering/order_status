@@ -50,9 +50,9 @@
 
 <config>
     <modules>
-        <Mage_Sales_Local>
-            <version>0.1.0</version>
-        </Mage_Sales_Local>
+        <Mage_Sales_Community>
+            <version>0.1.2</version>
+        </Mage_Sales_Community>
     </modules>
     <global>
         <sales>

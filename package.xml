@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>Order_Status</name>
-    <version>0.1.1</version>
+    <version>0.1.2</version>
     <stability>stable</stability>
     <license uri="http://www.opensource.org/licenses/gpl-license.php">GNU General Public License (GPL)</license>
     <channel>community</channel>
@@ -41,13 +41,16 @@ Below is the list of New Status's that have been added:
 To add your own Status's you can edit the following file:
 magento_root/app/code/local/sales/local/etc/config.xml
 
-Just follow the istructions of the grey text in that file.</description>
+Just follow the istructions of the grey text in that file.
+
+Version 0.1.2 Update:
+Moved files to Community Codepool instead of Local Codepool</description>
     <notes>Thanks given to:
 Spheric, Atlasit, Ajayksh, Erenaud</notes>
     <authors><author><name>Itai Etzman</name><user>auto-converted</user><email>webmaster@digitaladdiction.co.za</email></author></authors>
-    <date>2009-06-18</date>
-    <time>22:21:48</time>
-    <contents><target name="magelocal"><dir name="Mage"><dir name="Sales"><dir name="Local"><dir name="etc"><file name="config.xml" hash="0183e4ed7c2ed4c09a426cd7eece4e56"/></dir><file name="Default.php" hash="1c0aaf7db21e321248c880cd5eb56798"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Status.xml" hash="a32009399e91daf1c83bc4190e0e5cc1"/></dir></target></contents>
+    <date>2009-06-23</date>
+    <time>21:57:34</time>
+    <contents><target name="magecommunity"><dir name="Mage"><dir name="Sales"><dir name="Community"><dir name="etc"><file name="config.xml" hash="4965abead2b68d23a40ef65177aed4b5"/></dir><file name="Default.php" hash="10cf2756430903367c2538b0c15de524"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Status.xml" hash="d064d4f204095f283f441926290b12d6"/></dir></target></contents>
     <compatible/>
     <dependencies/>
 </package>
