@@ -1,5 +1,5 @@
 {
-    "name": "OpenMageModuleFostering\/Order_Status",
+    "name": "openmage-module-fostering\/order_status",
     "type": "magento-module",
     "license": "GNU-General-Public-License-(GPL)",
     "homepage": "",
